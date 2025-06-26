@@ -1,6 +1,6 @@
 # Task 3: Linear Regression
 
-This repository contains my solution for **Task 3** of the AI & ML Internship. The goal of this task is to implement simple and multiple linear regression using the Housing Price Prediction dataset and evaluate the model using various performance metrics.
+This repository contains my solution for Task 3 of the AI & ML Internship. The goal of this task is to implement simple and multiple linear regression using the Housing Price Prediction dataset and evaluate the model using various performance metrics.
 
 ---
 
@@ -35,11 +35,11 @@ I trained a linear regression model using sklearn.linear_model.LinearRegression.
 4. **Model Evaluation**
 After training, I evaluated the model’s performance on the test data using three key metrics:
 
-MAE (Mean Absolute Error) measures the average magnitude of errors in predictions.
+- MAE (Mean Absolute Error) measures the average magnitude of errors in predictions.
 
-MSE (Mean Squared Error) penalizes larger errors more significantly.
+- MSE (Mean Squared Error) penalizes larger errors more significantly.
 
-R² Score indicates how well the model explains the variance in the target variable.
+- R² Score indicates how well the model explains the variance in the target variable.
 
 5. **Visualization & Interpretation**
 Following the training of the linear regression model, I analyzed the coefficients to see how each feature contributed to the prediction of house price. Here is my interpretation from the values:
@@ -63,14 +63,6 @@ Basement, guestroom, or main road access also were contributing positively to do
 | R²     | 0.65             |
 
 These values suggest that the model has learned a reasonably good fit. The R² value of 0.65 means that approximately 65% of the variation in house prices is explained by the features used. While there's room for improvement, especially with advanced models or better feature engineering, this provides a solid foundation for linear regression.
-
----
-
-## Coefficient Interpretation
-
-The model's coefficients show how each input feature contributes to the predicted price. For example:
-- A unit increase in `area` increases the price by X units (holding others constant).
-- Features like `mainroad_yes` or `furnishingstatus_furnished` show the price premium of such attributes.
 
 ---
 
