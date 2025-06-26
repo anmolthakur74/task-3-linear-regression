@@ -88,23 +88,25 @@ The importance of using metrics like MAE, MSE, and R² for regression tasks
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/task-1-data-cleaning-preprocessing.git
-   cd task-1-data-cleaning-preprocessing
+   git clone https://github.com/anmolthakur74/task-3-linear-regression.git
+   cd task-3-linear-regression
    ```
 
 2. Install required libraries:
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+   pip install pandas numpy matplotlib scikit-learn
    ```
 
 3. Open the notebook:
    ```
-   jupyter notebook titanic_preprocessing.ipynb
+   jupyter notebook linear_regression.ipynb
    ```
 
 ---
 
-Author
-Anmol Thakur
-GitHub: [anmolthakur74]()
+## Author
+
+**Anmol Thakur**
+
+GitHub: [anmolthakur74](https://github.com/anmolthakur74/)
 
